@@ -1,0 +1,23 @@
+body {
+    background-color: #fafafa;
+}
+.container {
+    width: 601px;
+    margin: 100px auto;
+}
+
+.item-video {
+    margin: 50px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    &__title {
+        padding: 0 20px;
+        h2 {
+            margin-top: 25px;
+            margin-bottom: 0px;
+        }
+    }
+    &__description {
+        padding: 0 20px;
+    }
+}

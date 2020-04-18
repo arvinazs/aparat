@@ -1,0 +1,38 @@
+
+@mixin respond-to( $point ) {
+	@if $point==320 {
+		@media ( max-width: 320px ) {
+			@content;
+		}
+	}
+	@if $point==480 {
+		@media ( max-width: 480px ) {
+			@content;
+		}
+	}
+	@if $point==576 {
+		@media ( max-width: 576px ) {
+			@content;
+		}
+	}
+	@if $point==768 {
+		@media ( max-width: 768px ) {
+			@content;
+		}
+	}
+	@if $point==992 {
+		@media ( max-width: 992px ) {
+			@content;
+		}
+	}
+	@if $point==1200 {
+		@media ( max-width: 1200px ) {
+			@content;
+		}
+	}
+	@if $point==1500 {
+		@media ( min-width: 1500px ) {
+			@content;
+		}
+	}
+}
